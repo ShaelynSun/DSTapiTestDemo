@@ -2,12 +2,16 @@
 Name: Xinyue Sun (Shaelyn)
 Student Number: 20086486
 
+---
+
 ## Overview.
 This is a dynamic story telling website. Everyone can post their own incomplete story. 
 After uploaded, other users will post comments as the continuation of this story.
 Comments are related to stories. One story has many comments. A user can post both stories and comments.
 Users can find their interested stories(and comments) by fuzzy search, and update upvotes and downvotes.
 Users must register to use this website, and the username should be unique.
+
+---
 
 ## API endpoints.
  + GET /stories - Get all stories.
@@ -29,8 +33,12 @@ Users must register to use this website, and the username should be unique.
  + DELETE /stories/:id - Delete the specific story.
  + DELETE /comments/:story_id/:comment_id - Delete the specific story's a comment.
 
- ##Data model
- [datamodel]: ./public/images/data_model.jpg
+---
+
+ ## Data model
+ ![data_model](public/images/data_model.jpg)
+
+---
 
  ## Sample Test execution.
 
